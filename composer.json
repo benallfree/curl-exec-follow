@@ -1,0 +1,15 @@
+{
+    "name": "benallfree/curl-exec-follow",
+    "description": "A version of curl_exec() that will follow redirects (needed for open_basdir compatibility)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Allfree",
+            "email": "ben@benallfree.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "files": ["curl_exec_follow.php"]
+    }
+}
